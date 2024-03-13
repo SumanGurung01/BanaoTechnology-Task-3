@@ -1,0 +1,27 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    padding: 10px 10px 20px 10px;
+}
+
+.detail__image {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: cornflowerblue;
+    margin: 10px 0px 20px 0px
+}
+
+.detail__image>img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.detail__detail {
+    width: 100%;
+}
