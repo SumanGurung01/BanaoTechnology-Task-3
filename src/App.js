@@ -35,7 +35,7 @@ function App() {
                     <div className="loader">
                         <MoonLoader />
                     </div>
-                ) : status == 200 ? (
+                ) : status === 200 ? (
                     users && (
                         <>
                             <div className="user__container">
